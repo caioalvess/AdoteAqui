@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Quicksand:wght@400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+.caixa {
+    display: flex;
+    
+}
+.menu ul {
+    padding-top:5px;
+    margin:0px;
+    background-color: #f5f5f5;
+    list-style:none;
+    height: 35px;
+    width: 100%;
+}
+.adotetext h1{
+    width: 210px;
+    height: 37px;
+    padding-top: 3px;
+    background-color:#f5f5f5;
+    text-align: center;
+    color: rgb(255, 51, 85);
+    
+}
+.menu ul li { 
+    display: inline;
+    float: right;
+}
+.menu ul li a {
+    padding: 2px 20px;
+    display: inline-block;
+    margin-right: 30px;
+    /* visual do link */
+    background-color:#f5f5f5;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #f5f5f5; 
+}
+.menu ul li a:hover {
+    background-color:#f5f5f5;
+    color: rgb(255, 51, 85); 
+    border-bottom:1px solid rgb(255, 51, 85);
+    transition-delay: 25ms;
+}
+.container {
+    margin: auto;
+    max-width: 1400px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) ;
+    justify-content: center;
+    grid-gap: 10px;
+    padding: 20px;
+}
+.polaroid {
+    background: white;
+    padding: 15px 15px 20px;
+}
+.photo {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+
+}
+html, body {
+    min-height: 100%;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+        
