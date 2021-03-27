@@ -81,4 +81,10 @@ body {
     font-size: 12px;
     letter-spacing: 2px;
 }
+@media (max-width: 800px) {
+    ul {
+        display: none;
+        height: 1px;
+    }
+}
         
